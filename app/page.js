@@ -9,7 +9,7 @@ export default function Home() {
       <header className="hero">
         <div className="wrap hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow">Planilha + Guia bônus · acesso imediato</hspan>
+            <span className="eyebrow">Planilha + Guia bônus · acesso imediatoh</span>
             <h1>
               Você ganha bem, mas o dinheiro <em>some</em> todo mês?
             </h1>
