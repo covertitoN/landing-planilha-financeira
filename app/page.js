@@ -9,7 +9,7 @@ export default function Home() {
       <header className="hero">
         <div className="wrap hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow">Planilha + Guia bônus · acesso imediato</span>
+            <span className="eyebrow">Planilha + Guia bônus · acesso imediato</hspan>
             <h1>
               Você ganha bem, mas o dinheiro <em>some</em> todo mês?
             </h1>
@@ -159,7 +159,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-{/* ==================== DEPOIMENTOS ==================== */}
+        {/* ==================== DEPOIMENTOS ==================== */}
         <section className="testimonials">
           <div className="wrap">
             <div className="section-head">
