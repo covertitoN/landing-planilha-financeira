@@ -159,7 +159,47 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+{/* ==================== DEPOIMENTOS ==================== */}
+        <section className="testimonials">
+          <div className="wrap">
+            <div className="section-head">
+              <p className="kicker">Quem já usa</p>
+              <h2>Eles pararam de adivinhar — e começaram a sobrar</h2>
+            </div>
+            <div className="testi-grid">
+              <div className="testi-card">
+                <p className="testi-text">"Finalmente entendi para onde ia meu salário. Na primeira semana já cortei R$400 de gastos que eu nem sabia que tinha."</p>
+                <div className="testi-author">
+                  <div className="testi-avatar">AM</div>
+                  <div>
+                    <strong>Ana M.</strong>
+                    <span>Analista, São Paulo</span>
+                  </div>
+                </div>
+              </div>
+              <div className="testi-card">
+                <p className="testi-text">"Tentei várias planilhas gratuitas antes. Essa é diferente — o dashboard se atualiza sozinho e eu consigo ver tudo em 30 segundos."</p>
+                <div className="testi-author">
+                  <div className="testi-avatar">RC</div>
+                  <div>
+                    <strong>Rafael C.</strong>
+                    <span>Autônomo, Belo Horizonte</span>
+                  </div>
+                </div>
+              </div>
+              <div className="testi-card">
+                <p className="testi-text">"Comecei a acompanhar minhas metas pelo celular. Em 2 meses já tinha juntado a entrada do carro que eu achava impossível."</p>
+                <div className="testi-author">
+                  <div className="testi-avatar">JP</div>
+                  <div>
+                    <strong>Juliana P.</strong>
+                    <span>Professora, Curitiba</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       {/* ===================== CTA FINAL ===================== */}
       <section className="final">
         <div className="wrap">
