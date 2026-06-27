@@ -9,16 +9,17 @@ export default function Home() {
       <header className="hero">
         <div className="wrap hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow">Planilha + Guia bônus · acesso imediatoh</span>
+            <span className="eyebrow">Planilha + Guia bônus · acesso imediato</span>
             <h1>
-              Você ganha bem, mas o dinheiro <em>some</em> todo mês?
+              Suas finanças do mês inteiro <em>em uma tela só</em>
             </h1>
             <p className="sub">
-              O problema quase nunca é quanto você ganha — é não enxergar para
-              onde o dinheiro vai. Esta planilha mostra tudo em uma tela só.
+              Esta planilha reúne receitas, despesas, saldo e metas num
+              dashboard que se atualiza sozinho. Você preenche os lançamentos —
+              o resto ela calcula.
             </p>
             <div className="hero-cta-row">
-              <a className="cta" href={CHECKOUT}>Quero organizar minhas finanças</a>
+              <a className="cta" href={CHECKOUT}>Quero a planilha</a>
               <div className="price-pill">
                 <span className="big">R$ 29,90</span>
                 <span className="small">ou 4x de R$ 8,14</span>
@@ -36,29 +37,29 @@ export default function Home() {
         </div>
       </header>
 
-      {/* ===================== DORES ===================== */}
+      {/* ===================== O QUE FAZ ===================== */}
       <section className="pains">
         <div className="wrap">
           <div className="section-head">
-            <p className="kicker">Soa familiar?</p>
-            <h2>Não é falta de dinheiro. <em>É falta de clareza.</em></h2>
+            <p className="kicker">Como funciona</p>
+            <h2>Uma planilha que mostra tudo <em>com clareza</em></h2>
           </div>
           <div className="pain-grid">
             <div className="pain">
-              <p className="q">"Para onde foi meu salário?"</p>
-              <p>O mês acaba e você não sabe explicar onde o dinheiro foi parar. Some em pequenos gastos que ninguém anota.</p>
+              <p className="q">Tudo em um lugar</p>
+              <p>Receitas, despesas e saldo reunidos numa tela. Você vê a distribuição dos gastos por categoria em gráfico, sem montar nada.</p>
             </div>
             <div className="pain">
-              <p className="q">"Tenho medo de olhar o saldo."</p>
-              <p>A fatura chega e dá um aperto. Sem enxergar o todo, organizar parece impossível — e o vermelho vira rotina.</p>
+              <p className="q">Atualiza sozinha</p>
+              <p>Os cálculos e gráficos se ajustam a cada lançamento. Não há fórmula para digitar nem aba para configurar.</p>
             </div>
             <div className="pain">
-              <p className="q">"Já tentei, mas é complicado."</p>
-              <p>Aplicativos cheios de função, planilhas que travam, nada que você consiga manter por mais de uma semana.</p>
+              <p className="q">Simples de manter</p>
+              <p>Listas prontas para tipo, categoria e forma de pagamento. Você escolhe nas opções — o registro leva segundos.</p>
             </div>
           </div>
           <p className="pain-turn">
-            Quem enxerga as próprias contas com nitidez para de adivinhar — e começa a sobrar.
+            Feita para quem quer acompanhar as próprias contas sem depender de Excel avançado.
           </p>
         </div>
       </section>
@@ -88,10 +89,10 @@ export default function Home() {
               <span className="tag tag--bonus">Bônus grátis</span>
               <h3>Guia Prático de Organização Financeira</h3>
               <ul className="inc-list">
-                <li>O método dos 4 passos para sair do vermelho</li>
+                <li>Um método em 4 passos para organizar seus lançamentos</li>
                 <li>A regra 50/30/20 explicada de forma simples</li>
-                <li>Os 5 erros que sabotam suas finanças</li>
-                <li>Um plano de 7 dias para começar hoje mesmo</li>
+                <li>Boas práticas para manter o controle em dia</li>
+                <li>Um plano de 7 dias para começar a usar a planilha</li>
               </ul>
             </div>
           </div>
@@ -111,7 +112,7 @@ export default function Home() {
               <div className="shot-img"><img src="/img/print_dashboard.png" alt="Dashboard da planilha" /></div>
               <div className="shot-txt">
                 <h3>Tudo numa tela só</h3>
-                <p>Receitas, despesas, saldo e a distribuição dos seus gastos em gráfico. Bateu o olho, entendeu sua situação.</p>
+                <p>Receitas, despesas, saldo e a distribuição dos seus gastos em gráfico. Bateu o olho, entendeu o panorama.</p>
               </div>
             </div>
             <div className="shot">
@@ -125,7 +126,7 @@ export default function Home() {
               <div className="shot-img"><img src="/img/print_metas.png" alt="Aba de metas" /></div>
               <div className="shot-txt">
                 <h3>Seus objetivos à vista</h3>
-                <p>Reserva, viagem, troca de carro. A barra muda de cor conforme você se aproxima — motivação que se vê.</p>
+                <p>Reserva, viagem, troca de carro. A barra de progresso muda de cor conforme você avança.</p>
               </div>
             </div>
           </div>
@@ -164,11 +165,11 @@ export default function Home() {
           <div className="wrap">
             <div className="section-head">
               <p className="kicker">Quem já usa</p>
-              <h2>Eles pararam de adivinhar — e começaram a sobrar</h2>
+              <h2>O que dizem sobre a planilha</h2>
             </div>
             <div className="testi-grid">
               <div className="testi-card">
-                <p className="testi-text">"Finalmente entendi para onde ia meu salário. Na primeira semana já cortei R$400 de gastos que eu nem sabia que tinha."</p>
+                <p className="testi-text">"É simples de preencher. Escolho nas listas e o dashboard se monta sozinho — não precisei mexer em nenhuma fórmula."</p>
                 <div className="testi-author">
                   <div className="testi-avatar">AM</div>
                   <div>
@@ -178,7 +179,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="testi-card">
-                <p className="testi-text">"Tentei várias planilhas gratuitas antes. Essa é diferente — o dashboard se atualiza sozinho e eu consigo ver tudo em 30 segundos."</p>
+                <p className="testi-text">"Tentei várias planilhas gratuitas antes. Essa é diferente — o dashboard se atualiza sozinho e eu vejo tudo em poucos segundos."</p>
                 <div className="testi-author">
                   <div className="testi-avatar">RC</div>
                   <div>
@@ -188,7 +189,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="testi-card">
-                <p className="testi-text">"Comecei a acompanhar minhas metas pelo celular. Em 2 meses já tinha juntado a entrada do carro que eu achava impossível."</p>
+                <p className="testi-text">"Gosto de acompanhar as metas pelo celular. A barra de progresso deixa visual e fácil de entender no dia a dia."</p>
                 <div className="testi-author">
                   <div className="testi-avatar">JP</div>
                   <div>
@@ -203,7 +204,7 @@ export default function Home() {
       {/* ===================== CTA FINAL ===================== */}
       <section className="final">
         <div className="wrap">
-          <h2>Comece a enxergar seu dinheiro ainda hoje</h2>
+          <h2>Comece a usar a planilha ainda hoje</h2>
           <div className="price-block">
             <div className="price-now">R$ 29,90</div>
             <div className="price-note">pagamento único · ou 4x de R$ 8,14 · planilha + guia bônus</div>
@@ -212,13 +213,21 @@ export default function Home() {
           <div className="guarantee">
             <span>🛡️</span> Garantia incondicional de 7 dias
           </div>
+          <p className="checkout-note">
+            Pagamento processado com segurança pela Hotmart. Você será
+            redirecionado para o checkout oficial (go.hotmart.com).
+          </p>
         </div>
       </section>
 
       <footer>
         <div className="wrap">
-          <span>© {new Date().getFullYear()} Planilha Financeira Completa</span>
+          <span>© {new Date().getFullYear()} Planilha Financeira Completa · Sylvio Marques</span>
           <span>
+            Contato: <a href="mailto:sylviosm2007@gmail.com">sylviosm2007@gmail.com</a>
+          </span>
+          <span>
+            Pagamento processado pela Hotmart ·{' '}
             <a href="/privacidade">Política de Privacidade</a> ·{' '}
             <a href="/termos">Termos de Uso</a>
           </span>
