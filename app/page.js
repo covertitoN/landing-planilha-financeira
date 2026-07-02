@@ -160,47 +160,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-        {/* ==================== DEPOIMENTOS ==================== */}
-        <section className="testimonials">
-          <div className="wrap">
-            <div className="section-head">
-              <p className="kicker">Quem já usa</p>
-              <h2>O que dizem sobre a planilha</h2>
-            </div>
-            <div className="testi-grid">
-              <div className="testi-card">
-                <p className="testi-text">"É simples de preencher. Escolho nas listas e o dashboard se monta sozinho — não precisei mexer em nenhuma fórmula."</p>
-                <div className="testi-author">
-                  <div className="testi-avatar">AM</div>
-                  <div>
-                    <strong>Ana M.</strong>
-                    <span>Analista, São Paulo</span>
-                  </div>
-                </div>
-              </div>
-              <div className="testi-card">
-                <p className="testi-text">"Tentei várias planilhas gratuitas antes. Essa é diferente — o dashboard se atualiza sozinho e eu vejo tudo em poucos segundos."</p>
-                <div className="testi-author">
-                  <div className="testi-avatar">RC</div>
-                  <div>
-                    <strong>Rafael C.</strong>
-                    <span>Autônomo, Belo Horizonte</span>
-                  </div>
-                </div>
-              </div>
-              <div className="testi-card">
-                <p className="testi-text">"Gosto de acompanhar as metas pelo celular. A barra de progresso deixa visual e fácil de entender no dia a dia."</p>
-                <div className="testi-author">
-                  <div className="testi-avatar">JP</div>
-                  <div>
-                    <strong>Juliana P.</strong>
-                    <span>Professora, Curitiba</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
       {/* ===================== CTA FINAL ===================== */}
       <section className="final">
         <div className="wrap">
@@ -214,20 +174,26 @@ export default function Home() {
             <span>🛡️</span> Garantia incondicional de 7 dias
           </div>
           <p className="checkout-note">
-            Pagamento processado com segurança pela Hotmart. Você será
-            redirecionado para o checkout oficial (go.hotmart.com).
+            Ao clicar, você será direcionado ao checkout seguro da Hotmart
+            (go.hotmart.com), onde poderá escolher a forma de pagamento.
+            A Hotmart é a maior plataforma de produtos digitais do Brasil.
           </p>
         </div>
       </section>
 
       <footer>
         <div className="wrap">
-          <span>© {new Date().getFullYear()} Planilha Financeira Completa · Sylvio Marques</span>
+          <span>© {new Date().getFullYear()} SYM Digital — Sylvio Soares Marques</span>
+          <span>CPF: 112.008.767-84 · Rio de Janeiro, RJ</span>
           <span>
             Contato: <a href="mailto:sylviosm2007@gmail.com">sylviosm2007@gmail.com</a>
           </span>
           <span>
-            Pagamento processado pela Hotmart ·{' '}
+            Este é um produto digital. O pagamento é processado com segurança pela{' '}
+            <a href="https://www.hotmart.com" target="_blank" rel="noopener noreferrer">Hotmart</a>,
+            plataforma regulamentada de distribuição de produtos digitais.
+          </span>
+          <span>
             <a href="/privacidade">Política de Privacidade</a> ·{' '}
             <a href="/termos">Termos de Uso</a>
           </span>
